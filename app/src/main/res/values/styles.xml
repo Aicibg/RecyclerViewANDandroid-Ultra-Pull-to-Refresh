@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat">
+        <!-- colorPrimaryDark 标题栏底色也就是toolbar的颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--colorPrimaryDark 状态栏背景色（标题栏上面的那一行） -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- colorAccent 各控制元件(如：check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/overFlowMnuStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/overfloeButtonStyle</item>
+    </style>
+    <!-- toolbar 溢出菜单样式-->
+    <style name="overFlowMnuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+     <item name="overlapAnchor">false</item>
+        <!-- 弹出菜单的背景色-->
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <!-- 弹出菜单与标题栏的垂直间距-->
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:width">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+    <style name="overfloeButtonStyle" parent="@style/Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_launcher</item>
+    </style>
+</resources>

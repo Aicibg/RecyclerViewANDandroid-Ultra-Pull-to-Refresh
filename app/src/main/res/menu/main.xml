@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/my_teacher"
+        android:title="我的老师"
+        android:orderInCategory="80"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/my_focus"
+        android:title="我的关注"
+        android:orderInCategory="80"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/personalinfo"
+        android:title="个人主页"
+        android:orderInCategory="80"
+        app:showAsAction="never"
+        />
+</menu>
